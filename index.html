@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+        <div id="maincont">
+            <label for="lang">Please select a Language</label>
+            <select name="lang" id="La" onchange="getlang()">
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option>
+                <option value="id">Indonesian</option>
+                <option value="ga">Irish</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portuguese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+            </select>
+            <br><br>
+            
+            <textarea id="Box" rows="10" cols="60"></textarea>
+            <textarea id="Box2" rows="10" cols="60"></textarea>
+            <br>
+            <button onclick="gettran()">translate</button>
+        </div>    
+</body>
+</html>
+<script src="main.js"></script>
